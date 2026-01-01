@@ -5,11 +5,12 @@ import { useSearchParams } from "react-router-dom";
 import { useEffect } from "react";
 import axios from "axios";
 // import { backendUrl } from "../../../admin/src/App";
-import { backendUrl } from "../config";
-
+// import { backendUrl } from "../config";
 import { toast } from "react-toastify";
 
 function Verify() {
+  const backendUrl = import.meta.env.VITE_BACKEND_URL;
+
   const { navigate, token, setCartItems } = useContext(ShopContext);
 
   const [searchParams, setParams] = useSearchParams();
