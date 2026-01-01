@@ -1,0 +1,6 @@
+“React-Toastify is a library used to show non-blocking toast notifications in React applications for better user experience.”
+toast notification eg - data saved successfully , invalid password , login successfully, something went wrong 
+
+we will install react router dom becuase we can create multiple routes in our project
+
+we will use contect to store data globally 
