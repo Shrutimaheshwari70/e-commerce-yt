@@ -16,8 +16,6 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Verify from "./pages/Verify";
 import Profile from "./pages/Profile";
-import AdminLogin from "./pages/AdminLogin";
-import AdminDashboard from "./components/AdminDashboard";
 function App() {
   return (
     <div className="pt-16 md:pt-20">
@@ -36,8 +34,6 @@ function App() {
         <Route path="/orders" element={<Orders />} />
         <Route path="/verify" element={<Verify />} />
         <Route path="/profile" element={<Profile />} />
-        <Route path="/admin/login" element={<AdminLogin />} />
-        <Route path="/admin/dashboard" element={<AdminDashboard />} />
       </Routes>
       <Footer />
     </div>
